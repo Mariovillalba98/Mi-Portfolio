@@ -8,9 +8,9 @@ const Testimonial = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#000F2E",
+        backgroundColor: "#212121",
         padding: 3,
-        border: "1px solid #00C7FF",
+        border: "1px solid 	#1db954",
         borderRadius: "10px",
         maxWidth: "315px",
         position: "relative",
@@ -23,7 +23,7 @@ const Testimonial = () => {
         consectetur repellat.
       </Typography>
       <Typography variant="body2">
-        <span style={{ color: "#33C7FF", fontWeight: "bold" }}>
+        <span style={{ color: "#1db954", fontWeight: "bold" }}>
           Cornelius Iiro
         </span>
         <span style={{ color: "#7B89A8" }}> - CEO of Intellicode</span>
@@ -33,7 +33,7 @@ const Testimonial = () => {
           position: "absolute",
           top: "-20px",
           left: "-20px",
-          color: "#00C7FF",
+          color: "#1db954",
           height: "50px",
           width: "50px",
         }}

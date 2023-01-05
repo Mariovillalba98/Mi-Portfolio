@@ -8,7 +8,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 
-import navIcon from "../media/react_logo.png";
+import navIcon from "../media/logoMV.png";
 
 import { Link } from "react-scroll";
 import { styled } from "@mui/system";
@@ -54,7 +54,7 @@ const Navbar = () => {
               src={navIcon}
             />
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              My Portfolio
+              Mario Villalba
             </Typography>
           </Box>
 

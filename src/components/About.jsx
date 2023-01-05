@@ -32,7 +32,7 @@ const About = () => {
     width: "15%",
     display: "block",
     "&:hover": {
-      border: "3px solid #00C7FF",
+      border: "3px solid #1db954",
     },
     [theme.breakpoints.down("md")]: {
       width: "50%",
@@ -61,7 +61,7 @@ const About = () => {
         <div
           style={{
             height: "5px",
-            backgroundColor: "#00C7FF",
+            backgroundColor: "#1db954",
             width: "50%",
             border: 0,
             borderRadius: "25px",
@@ -78,7 +78,7 @@ const About = () => {
       <div
         style={{
           height: "5px",
-          backgroundColor: "#00C7FF",
+          backgroundColor: "#1db954",
           width: "100%",
           mx: "auto",
           border: 0,

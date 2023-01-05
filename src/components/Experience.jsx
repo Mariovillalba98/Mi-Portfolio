@@ -12,7 +12,7 @@ const Experience = () => {
         sx={{ color: "white", textAlign: "center", mb: 2 }}
       >
         Let's take a look at what I've{" "}
-        <span style={{ color: "rgba(0,199,255,255)" }}>built</span> so far
+        <span style={{ color: "#1db954" }}>built</span> so far
       </Typography>
       <Box
         sx={{
@@ -28,6 +28,7 @@ const Experience = () => {
             description={project.description}
             tags={project.tags}
             img={project.image}
+            link={project.link}
           />
         ))}
       </Box>

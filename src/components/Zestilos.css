@@ -1,0 +1,46 @@
+
+
+a{
+  text-decoration:none; 
+  color: white;
+}
+.container{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.hola {
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 13ch;
+
+  animation: typing 2s steps(13),
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing{
+  from{width: 0}
+}
+
+@keyframes blink {
+  50% {border-color: transparent;}
+}
+
+
+
+
+
+.ladecoration {
+    text-decoration:none; 
+  }
+  
+  .efecto:hover {
+    margin-top: -20px;
+    transition: margin 1s ease-out;
+    transition: 0.5s;
+    
+}

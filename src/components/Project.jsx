@@ -10,17 +10,20 @@ import {
 import Chip from "@mui/material/Chip";
 import { Box } from "@mui/system";
 import React from "react";
+import "./Zestilos.css";
+import Linka from '@mui/material/Link';
 
-const Project = ({ title, description, tags, img }) => {
+
+const Project = ({ title, description, tags, img, link }) => {
   return (
-    <Card sx={{ maxWidth: 375, margin: "1rem" }}>
+    <Card sx={{ maxWidth: 375, margin: "1rem", backgroundColor: "#212121" }} className="efecto" >
       <CardActionArea>
         <CardMedia component="img" image={img} />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="div" color="white">
             {title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="#b3b3b3">
             {description}
           </Typography>
         </CardContent>
@@ -35,16 +38,19 @@ const Project = ({ title, description, tags, img }) => {
             mb: 3,
           }}
         >
+        <Linka sx={{textDecoration:"none"}} href={link} target="_blank" rel="noopener noreferrer">
+          <Button
+              size="small"
+              style={{ backgroundColor: "#1db954" }}
+              variant="contained"
+            >
+              Source Code
+            </Button>
+        </Linka>  
+
           <Button
             size="small"
-            style={{ backgroundColor: "rgba(0,199,255,255)" }}
-            variant="contained"
-          >
-            Source Code
-          </Button>
-          <Button
-            size="small"
-            style={{ backgroundColor: "rgba(0,199,255,255)" }}
+            style={{ backgroundColor: "#1db954" }}
             variant="contained"
           >
             Live Version
@@ -62,7 +68,7 @@ const Project = ({ title, description, tags, img }) => {
           }}
         >
           {tags.map((tag) => (
-            <Chip label={tag} variant="outlined" key={tag} />
+            <Chip label={tag} variant="outlined" key={tag} sx={{ color: "white" }} />
           ))}
         </Box>
       </CardActions>

@@ -16,8 +16,8 @@ export const icons = [
   },
   {
     id: 3,
-    name: "SASS",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    name: "Express",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
   },
   {
     id: 4,
@@ -38,5 +38,25 @@ export const icons = [
     id: 7,
     name: "Git",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  },
+  {
+    id: 8,
+    name: "Material UI",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+  },
+  {
+    id: 9,
+    name: "PostgreSQL",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  },
+  {
+    id: 10,
+    name: "Sequelize",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
+  },
+  {
+    id: 11,
+    name: "Redux",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
   },
 ];

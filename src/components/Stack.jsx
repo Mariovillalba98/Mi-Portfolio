@@ -48,7 +48,7 @@ const Stack = () => {
           }}
         >
           {icons.map((icon, i) => {
-            if (i < 2) {
+            if (i < 3) {
               return <Icon key={icon.id} name={icon.name} src={icon.src} />;
             } else {
               return "";
@@ -64,7 +64,7 @@ const Stack = () => {
           }}
         >
           {icons.map((icon, i) => {
-            if (i >= 2 && i < 4) {
+            if (i >= 3 && i < 6) {
               return <Icon key={icon.id} name={icon.name} src={icon.src} />;
             } else {
               return "";
@@ -80,7 +80,7 @@ const Stack = () => {
           }}
         >
           {icons.map((icon, i) => {
-            if (i >= 4 && i < 6) {
+            if (i >= 6 && i < 9) {
               return <Icon key={icon.id} name={icon.name} src={icon.src} />;
             } else {
               return "";
@@ -96,7 +96,7 @@ const Stack = () => {
           }}
         >
           {icons.map((icon, i) => {
-            if (i >= 6) {
+            if (i >= 9) {
               return <Icon key={icon.id} name={icon.name} src={icon.src} />;
             } else {
               return "";
