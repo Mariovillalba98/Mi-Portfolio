@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Experience from "./components/Experience";
-// import About from "./components/About";
+import About from "./components/About";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Experience />
-      {/* <About /> */}
+      <About />
       <Footer />
     </>
   );

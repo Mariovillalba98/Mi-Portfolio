@@ -70,9 +70,9 @@ const About = () => {
       </CustomTitleBox>
 
       <CustomBox sx={{ my: 7 }}>
+        {/* <Testimonial />
         <Testimonial />
-        <Testimonial />
-        <Testimonial />
+        <Testimonial /> */}
       </CustomBox>
 
       <div

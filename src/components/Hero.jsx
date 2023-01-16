@@ -136,7 +136,7 @@ const Hero = () => {
                               </Typography>
                           </Box>
                       </Linka>    
-                      <Linka sx={{textDecoration:"none"}} href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJNvvnGFsgxQgqxmWwzpPLMdmQdMqPrmjKxGmpwHfNpcjVPXtMFwfbJSQWQcSKJFzznjdvq' target="_blank" rel="noopener noreferrer">
+                      <Linka sx={{textDecoration:"none"}} href="mailto:villalbamario18@gmail.com?subject=Contacto%20Portfolio&body=Hola%20Mario%2C%20me%20gustar%C3%ADa%20pactar%20una%20entrevista%20ya%20que%20me%20gust%C3%B3%20tu%20perfil.">
                           <Box  sx={{ flexDirection:"column", display: "flex", alignItems: "center", cursor: "pointer" }}>
                             <EmailIcon sx={{ mr: 0, color: "white", height:40, width:40,"&:hover": {color: "#1db954",}}} />
                             <Typography variant="body2" sx={{color: "white", my: 1,marginTop:0.5,"&:hover": {color: "#1db954",}}}>
