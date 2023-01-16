@@ -1,6 +1,7 @@
 import { Box, Button, Typography, styled } from "@mui/material";
 import React from "react";
 import Testimonial from "./Testimonial";
+import Linka from '@mui/material/Link';
 
 const About = () => {
   const CustomBox = styled(Box)(({ theme }) => ({
@@ -70,9 +71,9 @@ const About = () => {
       </CustomTitleBox>
 
       <CustomBox sx={{ my: 7 }}>
-        {/* <Testimonial />
+         <Testimonial />
         <Testimonial />
-        <Testimonial /> */}
+        <Testimonial /> 
       </CustomBox>
 
       <div
@@ -92,6 +93,7 @@ const About = () => {
       >
         Interested in Working Together?
       </Typography>
+      <Linka sx={{textDecoration:"none"}} href='https://www.linkedin.com/in/mario-villalba-8b7136179/' target="_blank" rel="noopener noreferrer">
       <CustomButton
         variant="outlined"
         sx={{
@@ -102,6 +104,7 @@ const About = () => {
       >
         Get in Touch
       </CustomButton>
+      </Linka>
     </Box>
   );
 };
