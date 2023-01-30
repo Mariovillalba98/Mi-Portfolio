@@ -12,10 +12,11 @@ export const projects = [
     source: "",
     liveVersion: "",
     id: 0,
-    link:"https://github.com/Mariovillalba98/proyecto-final"
+    link:"https://github.com/Mariovillalba98/proyecto-final",
+    deploy:"https://game-script.netlify.app"
   },
   {
-    title: "Henry Foods",
+    title: "Food App",
     description:
       "This is a recipe web application, built with JavaScript, React & Redux.",
     image: linkedincloneImg,
@@ -23,7 +24,8 @@ export const projects = [
     source: "",
     liveVersion: "",
     id: 1,
-    link:"https://github.com/Mariovillalba98/Mario-villalba-Foods"
+    link:"https://github.com/Mariovillalba98/Mario-villalba-Foods",
+    deploy:"https://food-app-azure.vercel.app"
   },
   {
     title: "HenryCONNECT",
@@ -34,6 +36,7 @@ export const projects = [
     source: "",
     liveVersion: "",
     id: 2,
-    link:"https://github.com/Luchobd/HENRYconnect"
+    link:"https://github.com/Luchobd/HENRYconnect",
+    deploy:"https://github.com/Luchobd/HENRYconnect"
   },
 ];

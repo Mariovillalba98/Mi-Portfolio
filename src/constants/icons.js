@@ -1,3 +1,4 @@
+import express from "../media/express.png"
 export const icons = [
   {
     id: 0,
@@ -17,7 +18,7 @@ export const icons = [
   {
     id: 3,
     name: "Express",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    src: express,
   },
   {
     id: 4,

@@ -44,3 +44,10 @@ a{
     transition: 0.5s;
     
 }
+.vermas {
+  color: #1db954;
+  cursor: pointer;
+}
+.vermas:hover {
+    color: #034521;
+}

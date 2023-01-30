@@ -1,10 +1,12 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-
+import Avatar from '@mui/material/Avatar';
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
+import Stack from '@mui/material/Stack';
+import ScrollDialog from "./ScrollDialog";
 
-const Testimonial = () => {
+const Testimonial = ({name, ocupation, declaration, image, id, link, country, recortado}) => {
   return (
     <Box
       sx={{
@@ -17,16 +19,27 @@ const Testimonial = () => {
         mx: 3,
       }}
     >
+      
       <Typography variant="body1" sx={{ color: "white", mb: 2 }}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, illo
-        rem? Sint itaque praesentium, id molestiae assumenda perspiciatis
-        consectetur repellat.
+       <span>{recortado}...<ScrollDialog declaration={declaration} name={name} image={image} /></span> 
+
       </Typography>
-      <Typography variant="body2">
+      <Stack direction="row" spacing={1}>
+        <Avatar
+        alt={name}
+        src={image}
+        sx={{ width: 30, height: 30 }}
+      />
+      
+
+      <Typography variant="h6">
         <span style={{ color: "#1db954", fontWeight: "bold" }}>
-          Cornelius Iiro
+          {name}
         </span>
-        <span style={{ color: "#7B89A8" }}> - CEO of Intellicode</span>
+      </Typography>
+      </Stack>
+      <Typography variant="body2">
+        <span style={{ color: "#7B89A8" }}>{ocupation}, {country}</span>
       </Typography>
       <FormatQuoteIcon
         style={{

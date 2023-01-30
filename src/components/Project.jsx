@@ -14,10 +14,11 @@ import "./Zestilos.css";
 import Linka from '@mui/material/Link';
 
 
-const Project = ({ title, description, tags, img, link }) => {
+const Project = ({ title, description, tags, img, link, deploy }) => {
   return (
     <Card sx={{ maxWidth: 375, margin: "1rem", backgroundColor: "#212121" }} className="efecto" >
       <CardActionArea>
+      <Linka sx={{textDecoration:"none"}} href={deploy} target="_blank" rel="noopener noreferrer">  
         <CardMedia component="img" image={img} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color="white">
@@ -27,6 +28,7 @@ const Project = ({ title, description, tags, img, link }) => {
             {description}
           </Typography>
         </CardContent>
+        </Linka>
       </CardActionArea>
       <CardActions sx={{ display: "flex", flexDirection: "column" }}>
         <Box
@@ -47,7 +49,7 @@ const Project = ({ title, description, tags, img, link }) => {
               Source Code
             </Button>
         </Linka>  
-
+        <Linka sx={{textDecoration:"none"}} href={deploy} target="_blank" rel="noopener noreferrer">  
           <Button
             size="small"
             style={{ backgroundColor: "#1db954" }}
@@ -55,6 +57,7 @@ const Project = ({ title, description, tags, img, link }) => {
           >
             Live Version
           </Button>
+        </Linka> 
         </Box>
 
         <Box

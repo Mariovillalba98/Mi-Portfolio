@@ -2,6 +2,7 @@ import { Box, Button, Typography, styled } from "@mui/material";
 import React from "react";
 import Testimonial from "./Testimonial";
 import Linka from '@mui/material/Link';
+import { friends } from "../constants/friends";
 
 const About = () => {
   const CustomBox = styled(Box)(({ theme }) => ({
@@ -70,10 +71,21 @@ const About = () => {
         ></div>
       </CustomTitleBox>
 
-      <CustomBox sx={{ my: 7 }}>
-         <Testimonial />
-        <Testimonial />
-        <Testimonial /> 
+      <CustomBox sx={{ my: 7 }}>{
+        friends.map(e=>(
+          <Testimonial
+          key={e.id}
+          name={e.name}
+          ocupation={e.ocupation}
+          declaration={e.declaration}
+          image={e.image}
+          link={e.link}
+          country={e.country}
+          recortado={e.recortado}
+          />
+        ))
+      }
+
       </CustomBox>
 
       <div
