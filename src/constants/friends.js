@@ -6,12 +6,12 @@ export const friends = [
         name: "Paula Celman",
         ocupation:"Web developer",
         declaration:
-          "Mario es realmente un compañero de trabajo excepcional. Su actitud positiva, buen humor y fuerte ética de trabajo hacen que sea un placer trabajar con él. No sólo es un miembro del equipo digno de confianza y fiable, sino que también se toma muy en serio sus responsabilidades laborales y siempre busca la mejor solución a cualquier problema. Es un activo valioso para cualquier organización, y lo recomendaría encarecidamente para cualquier proyecto o puesto. Su dedicación al trabajo y su capacidad para entablar relaciones sólidas con sus compañeros hacen de él un jugador de equipo ideal. Con Mario en su equipo, puede confiar en que obtendrá resultados y contribuirá al éxito de la organización.",
+          "Mario es un compañero de trabajo excepcional con una actitud positiva, buen humor y fuerte ética laboral. Trabajar con él es un placer. Es confiable, se toma muy en serio sus responsabilidades. Busca siempre la mejor solución a los problemas. Es una persona muy valiosa, lo recomendaría para cualquier proyecto o puesto.",
         image: pau,
         id: 0,
         link:"https://github.com/Mariovillalba98/proyecto-final",
         country: "Buenos Aires (Argentina)",
-        recortado:"Mario es realmente un compañero de trabajo excepcional. Su actitud positiva, buen humor y fuerte ética de trabajo hacen que sea un placer trabajar con él. No sólo es un miembro del equipo digno de con"
+        recortado:"Mario es un compañero de trabajo excepcional con una actitud positiva, buen humor y fuerte ética laboral. Trabajar con él es un placer. Es confiable, se toma muy en serio sus responsabilidades. Busca"
     },
 
     {

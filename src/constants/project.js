@@ -13,7 +13,7 @@ export const projects = [
     liveVersion: "",
     id: 0,
     link:"https://github.com/Mariovillalba98/proyecto-final",
-    deploy:"https://game-script.netlify.app"
+    deploy:"https://gamescript-app.vercel.app/"
   },
   {
     title: "Food App",
@@ -37,6 +37,6 @@ export const projects = [
     liveVersion: "",
     id: 2,
     link:"https://github.com/Luchobd/HENRYconnect",
-    deploy:"https://github.com/Luchobd/HENRYconnect"
+    deploy:"https://www.figma.com/file/ToUmCe4X8wYVANaWxNUMO1/HENRYconnect?node-id=0%3A1"
   },
 ];
