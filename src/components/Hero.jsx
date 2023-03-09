@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import reactImg from "../media/carabyn.png";
 import "./Zestilos.css";
-import CV from "../media/Mariovillalba.pdf";
+import CV from "../media/mariovillalba.pdf";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
